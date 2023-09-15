@@ -1,0 +1,118 @@
+* {
+    font-family: sans-serif;
+    
+}
+.dark-blue {
+    background-color: #1f2937;
+    color: #f9faf8;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+.first-row {
+    
+    display: flex;
+    flex-direction: row;
+    border: solid red 2px;
+    padding-top: 20px;
+    margin-bottom: 80px;
+}
+.first-row-left {
+    
+    justify-content: start;
+    border: solid red 2px;
+}
+.first-row-right {
+    display: flex;
+    align-items: end;
+    border: solid red 2px;
+    gap: 20px;
+    margin-left: auto;
+    
+}
+#Logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+.second-row {
+    display: flex;
+    border: solid blue 2px;
+    padding-bottom: 100px;
+    width: auto;
+    justify-content: center;
+}
+.second-row-left {
+    flex-grow: 1;
+    border: solid blue 2px;
+    padding-right: 100px;
+}
+.sign-up {
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 2px;
+    background-color: #3882F6;
+    width: 120px;
+    height: 35px;
+    border-radius: 8px;
+    border: none;
+    margin-top: 10px;
+
+}
+.second-row-right {
+    display: flex;
+    justify-content: center;
+    border: solid blue 2px;
+    background-color: grey;
+    width: 1000px;
+    height: 220px;
+    flex-grow: 1;
+}
+p {
+    align-self: center;
+}
+#awesome {
+    font-size: 48px;
+    font-weight: bold;
+}
+.white {
+    display: flex;
+    border: solid green 2px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;  
+    padding-bottom: 90px;  
+}
+.information {
+    display: flex;
+    justify-content: center;
+    font-size: 36px;
+    font-weight: bold;
+    color: #1f2937;
+    border: solid green 2px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+.frames {
+    display: flex;
+    flex-direction: row;
+    border: solid green 2px;
+    gap: 40px;
+}
+.frame {
+    display: flex;
+    border: solid green 2px;
+    width: 150px;
+    height: 200px;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: #1f2937;
+}
+.sub-frame {
+    display: flex;
+    width: 150px;
+    height: 150px;
+    border: solid #3882F6 3px;
+    border-radius: 20px;
+
+}
