@@ -76,7 +76,7 @@ p {
 }
 .white {
     display: flex;
-    border: solid green 2px;
+    border: solid black 2px;
     justify-content: center;
     align-items: center;
     flex-direction: column;  
@@ -114,5 +114,64 @@ p {
     height: 150px;
     border: solid #3882F6 3px;
     border-radius: 20px;
+    
+}
+.light-blue {
+    display: flex;
+    background-color: #E5E7EB;
+    align-items: center;
+    border: solid black 3px;
+    flex-direction: column;
+    padding-top: 150px;
+    padding-bottom: 100px;
+}
+.quote {
+    display: flex;
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+    width: 850px;
+    border: solid black 3px;
+    align-items: center;
+}
+.name {
+    display: flex; 
+    border: solid black 3px;
+    width: 800px;
+    justify-content: end;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.action {
+    display: flex;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: #E5E7EB;
+    justify-content: center;
+}
+.blue {
+    display: flex;
+    background-color:  #3882F6;
+    width: 1000px;
+    align-items: center;
+    justify-content: center;
+
+}
+.call {
+    font-size: 30px;
+    font-weight: bold;
+}
+.there {
+
+}
+.sign-up-blue {
+color: #E5E7EB;
+font-size: 20px;
+width: 200px;
+height: 50px;
+background-color: #3882F6;
+border-radius: 10px;
+border: solid #E5E7EB 3px;
 
 }
